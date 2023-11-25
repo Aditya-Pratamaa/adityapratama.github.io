@@ -379,6 +379,13 @@ section {
         margin-right: 5rem;
     }
 
+    .row-wrap .row .tengah .main-row p {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-left: 7rem;
+    }
+
     /* .row-wrap .row .main-row p {
         margin-left: 36px;
     } */
