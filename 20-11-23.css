@@ -343,12 +343,22 @@ section {
 }
 
 @media (max-width: 600px) {
+    header .logo {
+        margin-left: 32px;
+    }
+
+
     section {
         padding: 50px 7%;
     }
 }
 
 @media (max-width: 368px) {
+    .content {
+        padding-left: 25px;
+    }
+
+
     section {
         padding: 50px 4%;
     }
@@ -360,7 +370,16 @@ section {
     }
 
     .main-row p {
-        font-size: 0.9em;
-        margin-left: .1rem;
+        font-size: 13px;
+        margin-left: .6rem;
     }
+
+    .map-wrapper {
+        margin-top: 42px;
+        margin-right: 5rem;
+    }
+
+    /* .row-wrap .row .main-row p {
+        margin-left: 36px;
+    } */
 }
